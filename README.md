@@ -1,7 +1,6 @@
 # Spring-Boot-App-to-Kubernetes-using-Minikube
 
-**🌟 ## Overview**
-In this project, I’ll walk you through how I containerized a simple Spring Boot application and deployed it to a local Kubernetes cluster using Minikube. This hands-on project helped me understand how real-world microservices are deployed using Kubernetes and gave me practical exposure to core DevOps tools like Docker, Kubernetes, and Spring Boot.
+In this project, I’ll walk you through how I containerized a simple Spring Boot application and deployed it to a **Kubernetes cluster** locally using **Minikube**. This hands-on project helped me understand how real-world microservices are deployed using Kubernetes and gave me practical exposure to core DevOps tools like Docker, Kubernetes, and Spring Boot.
 
 ## 🧱 Tech Stack
 
@@ -9,8 +8,17 @@ In this project, I’ll walk you through how I containerized a simple Spring Boo
 - Docker
 - Kubernetes + Minikube
 - Maven
+  
+## 🎯 Use Case
 
-**⚙️ Step-by-Step: How This Project Was Built**
+This project helps simulate a real-world microservice deployment pipeline:
+- Containerizing a Spring Boot application
+- Deploying it into a Kubernetes cluster
+- Accessing the application locally using Minikube
+
+## 🛠️ Setup Instructions
+
+**⚙️ How This Project Was Built**
 
 ✅ 1. Create a Spring Boot Application
 A basic REST API was created using Spring Boot with a simple Hello, Kubernetes! endpoint.
@@ -22,7 +30,8 @@ Use Minikube’s Docker daemon to make images available inside the cluster
 deployment.yaml creates Pods from the Docker image.
 service.yaml exposes the app via a ClusterIP service.
 
-**🧱 Architecture Diagram**
+
+## 🧱 Architecture Diagram
 
 ![image](https://github.com/user-attachments/assets/8c32dd88-2269-4784-ae6c-f8d75dda4f8d)
 
