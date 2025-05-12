@@ -22,10 +22,13 @@ This project helps simulate a real-world microservice deployment pipeline:
 
 ✅ 1. Create a Spring Boot Application
 A basic REST API was created using Spring Boot with a simple Hello, Kubernetes! endpoint.
+
 ✅ 2. Containerize the App with Docker
 The Dockerfile builds a Docker image from the Spring Boot app.
+
 ✅ 3. Set Up Minikube & Kubernetes:
-Use Minikube’s Docker daemon to make images available inside the cluster
+Use Minikube’s Docker daemon to make images available inside the cluster.
+
 ✅ 4. Create Kubernetes Deployment & Service
 deployment.yaml creates Pods from the Docker image.
 service.yaml exposes the app via a ClusterIP service.
